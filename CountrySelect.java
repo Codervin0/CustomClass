@@ -13,6 +13,10 @@ public class CountrySelect {
       gdp = 128003776.00;
       countryExists = true;
    }
+   public CountrySelect(String name, boolean countryExists) {
+      this.name = name;
+      this.countryExists = countryExists;
+   }
    public CountrySelect(String name, int pop, double gdp, boolean countryExists) {
       this.name = name;
       this.pop = pop;
